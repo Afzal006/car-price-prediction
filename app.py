@@ -60,9 +60,8 @@ st.markdown(
 # ==========================================
 # LOAD MODEL
 # ==========================================
-
 model = joblib.load(
-    "models/car_price_model.pkl"
+    "car_price_model.pkl"
 )
 
 
